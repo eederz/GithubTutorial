@@ -13,6 +13,7 @@
 		8BF24B341E5C9957002CE543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF24B321E5C9957002CE543 /* Main.storyboard */; };
 		8BF24B361E5C9957002CE543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF24B351E5C9957002CE543 /* Assets.xcassets */; };
 		8BF24B391E5C9957002CE543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF24B371E5C9957002CE543 /* LaunchScreen.storyboard */; };
+		8BF24B421E5CA200002CE543 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF24B411E5CA200002CE543 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8BF24B351E5C9957002CE543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF24B381E5C9957002CE543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF24B3A1E5C9957002CE543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF24B401E5CA200002CE543 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8BF24B411E5CA200002CE543 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				8BF24B2F1E5C9957002CE543 /* ViewController.h */,
 				8BF24B301E5C9957002CE543 /* ViewController.m */,
 				8BF24B321E5C9957002CE543 /* Main.storyboard */,
+				8BF24B401E5CA200002CE543 /* MapViewController.h */,
+				8BF24B411E5CA200002CE543 /* MapViewController.m */,
 				8BF24B351E5C9957002CE543 /* Assets.xcassets */,
 				8BF24B371E5C9957002CE543 /* LaunchScreen.storyboard */,
 				8BF24B3A1E5C9957002CE543 /* Info.plist */,
@@ -154,6 +159,7 @@
 				8BF24B311E5C9957002CE543 /* ViewController.m in Sources */,
 				8BF24B2E1E5C9957002CE543 /* AppDelegate.m in Sources */,
 				8BF24B2B1E5C9957002CE543 /* main.m in Sources */,
+				8BF24B421E5CA200002CE543 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				8BF24B3F1E5C9957002CE543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
